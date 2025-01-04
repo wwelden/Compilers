@@ -1,0 +1,12 @@
+loadI  2048         => r9 //loadI  2048 => r0
+loadI  4            => r3 //loadI  4 => r1
+loadI  2            => r7 //loadI  2 => r2
+load   r9           => r8 //load   r0 => r20
+add    r9   , r3    => r2 //add    r0, r1 => r0
+load   r2           => r6 //load   r0 => r21
+rshift r8   , r7    => r4 //rshift r20, r2 => r20
+rshift r6   , r7    => r5 //rshift r21, r2 => r21
+sub    r4   , r5    => r0 //sub    r20, r21 => r20
+add    r2   , r3    => r1 //add    r0, r1 => r0
+store  r0           => r1 //store  r20 => r0
+output 2056               //output 2056

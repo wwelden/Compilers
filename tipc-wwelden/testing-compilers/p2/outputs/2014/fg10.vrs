@@ -1,0 +1,8 @@
+loadI  1000         => r3 //loadI  1000 => r1
+loadI  1048         => r5 //loadI  1048 => r2
+add    r3   , r5    => r4 //add    r1, r2 => r3
+loadI  1004         => r1 //loadI  1004 => r4
+loadI  1008         => r2 //loadI  1008 => r5
+store  r3           => r4 //store  r1 => r3
+add    r1   , r2    => r0 //add    r4, r5 => r4
+output 2048               //output 2048

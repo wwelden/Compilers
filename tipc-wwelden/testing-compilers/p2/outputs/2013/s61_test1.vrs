@@ -1,0 +1,27 @@
+loadI  1024         => r7 //loadI  1024 => r0
+loadI  1032         => r10 //loadI  1032 => r1
+loadI  1036         => r3 //loadI  1036 => r5
+loadI  1036         => r2 //loadI  1036 => r6
+loadI  1036         => r1 //loadI  1036 => r7
+loadI  1036         => r0 //loadI  1036 => r8
+store  r3           => r3 //store  r5 => r5
+store  r2           => r2 //store  r6 => r6
+store  r1           => r1 //store  r7 => r7
+store  r0           => r0 //store  r8 => r8
+store  r7           => r7 //store  r0 => r0
+store  r10          => r10 //store  r1 => r1
+add    r7   , r10   => r4 //add    r0, r1 => r2
+load   r10          => r11 //load   r1 => r3
+load   r10          => r9 //load   r1 => r4
+sub    r7   , r4    => r8 //sub    r0, r2 => r4
+add    r7   , r4    => r6 //add    r0, r2 => r3
+mult   r4   , r4    => r5 //mult   r2, r2 => r3
+store  r4           => r4 //store  r2 => r2
+store  r3           => r3 //store  r5 => r5
+store  r2           => r2 //store  r6 => r6
+store  r1           => r1 //store  r7 => r7
+store  r0           => r0 //store  r8 => r8
+output 1024               //output 1024
+output 1032               //output 1032
+output 1036               //output 1036
+output 2056               //output 2056

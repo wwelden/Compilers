@@ -1,0 +1,51 @@
+loadI  1            => r33 //loadI  1 => r1
+loadI  2            => r34 //loadI  2 => r2
+loadI  3            => r30 //loadI  3 => r3
+loadI  4            => r31 //loadI  4 => r4
+loadI  5            => r27 //loadI  5 => r5
+loadI  6            => r28 //loadI  6 => r6
+loadI  7            => r24 //loadI  7 => r7
+loadI  8            => r25 //loadI  8 => r8
+loadI  9            => r21 //loadI  9 => r9
+loadI  10           => r22 //loadI  10 => r10
+mult   r33  , r34   => r32 //mult   r1, r2 => r1001
+loadI  1000         => r19 //loadI  1000 => r11
+store  r32          => r19 //store  r1001 => r11
+mult   r30  , r31   => r29 //mult   r3, r4 => r1002
+loadI  1004         => r18 //loadI  1004 => r12
+store  r29          => r18 //store  r1002 => r12
+mult   r27  , r28   => r26 //mult   r5, r6 => r1003
+loadI  1012         => r17 //loadI  1012 => r13
+store  r26          => r17 //store  r1003 => r13
+mult   r24  , r25   => r23 //mult   r7, r8 => r1004
+loadI  1016         => r16 //loadI  1016 => r14
+store  r23          => r16 //store  r1004 => r14
+mult   r21  , r22   => r20 //mult   r9, r10 => r1005
+loadI  1020         => r15 //loadI  1020 => r15
+store  r20          => r15 //store  r1005 => r15
+load   r19          => r13 //load   r11 => r2001
+load   r18          => r14 //load   r12 => r2002
+load   r17          => r12 //load   r13 => r2003
+load   r16          => r10 //load   r14 => r2004
+load   r15          => r8 //load   r15 => r2005
+mult   r13  , r14   => r11 //mult   r2001, r2002 => r2002
+mult   r11  , r12   => r9 //mult   r2002, r2003 => r2003
+mult   r9   , r10   => r7 //mult   r2003, r2004 => r2004
+mult   r7   , r8    => r5 //mult   r2004, r2005 => r2005
+loadI  1024         => r6 //loadI  1024 => r16
+store  r5           => r6 //store  r2005 => r16
+nop                       //nop
+nop                       //nop
+nop                       //nop
+nop                       //nop
+nop                       //nop
+loadI  1814400        => r2 //loadI  1814400 => r100
+sub    r5   , r2    => r3 //sub    r2005, r100 => r201
+loadI  1028         => r4 //loadI  1028 => r17
+store  r3           => r4 //store  r201 => r17
+sub    r2   , r3    => r0 //sub    r100, r201 => r202
+loadI  1032         => r1 //loadI  1032 => r18
+store  r0           => r1 //store  r202 => r18
+output 1024               //output 1024
+output 1028               //output 1028
+output 1032               //output 1032

@@ -1,0 +1,27 @@
+loadI  1024         => r1 //loadI  1024 => r0
+loadI  1028         => r18 //loadI  1028 => r1
+store  r18          => r1 //store  r1 => r0
+store  r1           => r18 //store  r0 => r1
+load   r18          => r11 //load   r1 => r4
+add    r11  , r1    => r8 //add    r4, r0 => r5
+sub    r8   , r18   => r5 //sub    r5, r1 => r6
+add    r5   , r18   => r16 //add    r6, r1 => r7
+lshift r11  , r8    => r13 //lshift r4, r5 => r8
+rshift r16  , r1    => r14 //rshift r7, r0 => r9
+load   r18          => r22 //load   r1 => r10
+add    r5   , r14   => r2 //add    r6, r9 => r3
+sub    r2   , r22   => r21 //sub    r3, r10 => r11
+loadI  1024         => r12 //loadI  1024 => r12
+loadI  1028         => r20 //loadI  1028 => r13
+store  r18          => r19 //store  r1 => r14
+store  r1           => r9 //store  r0 => r15
+load   r2           => r17 //load   r3 => r16
+add    r11  , r8    => r6 //add    r4, r5 => r17
+sub    r5   , r16   => r15 //sub    r6, r7 => r18
+add    r13  , r14   => r3 //add    r8, r9 => r19
+lshift r11  , r12   => r10 //lshift r4, r12 => r20
+rshift r8   , r9    => r7 //rshift r5, r15 => r21
+add    r5   , r6    => r4 //add    r6, r17 => r22
+sub    r2   , r3    => r0 //sub    r3, r19 => r11
+store  r0           => r1 //store  r11 => r0
+output 1024               //output 1024

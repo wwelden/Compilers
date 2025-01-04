@@ -1,0 +1,47 @@
+loadI  1            => r21 //loadI  1 => r10
+loadI  1024         => r16 //loadI  1024 => r11
+store  r21          => r16 //store  r10 => r11
+loadI  2            => r22 //loadI  2 => r20
+loadI  1028         => r14 //loadI  1028 => r21
+store  r22          => r14 //store  r20 => r21
+add    r21  , r22   => r20 //add    r10, r20 => r30
+add    r16  , r14   => r12 //add    r11, r21 => r31
+store  r20          => r12 //store  r30 => r31
+output 1024               //output 1024
+output 1028               //output 1028
+output 2052               //output 2052
+loadI  1            => r8 //loadI  1 => r1
+loadI  2            => r18 //loadI  2 => r2
+loadI  3            => r19 //loadI  3 => r3
+loadI  4            => r17 //loadI  4 => r4
+loadI  5            => r0 //loadI  5 => r5
+add    r8   , r18   => r15 //add    r1, r2 => r6
+add    r18  , r19   => r13 //add    r2, r3 => r7
+add    r17  , r0    => r11 //add    r4, r5 => r8
+store  r15          => r16 //store  r6 => r11
+store  r13          => r14 //store  r7 => r21
+store  r11          => r12 //store  r8 => r31
+output 1024               //output 1024
+output 1028               //output 1028
+output 2052               //output 2052
+loadI  10           => r9 //loadI  10 => r10
+loadI  1024         => r5 //loadI  1024 => r11
+store  r9           => r5 //store  r10 => r11
+loadI  20           => r7 //loadI  20 => r20
+loadI  1028         => r3 //loadI  1028 => r21
+store  r7           => r3 //store  r20 => r21
+add    r9   , r7    => r10 //add    r10, r20 => r30
+add    r5   , r3    => r1 //add    r11, r21 => r31
+store  r10          => r1 //store  r30 => r31
+output 1024               //output 1024
+output 1028               //output 1028
+output 2052               //output 2052
+mult   r8   , r9    => r4 //mult   r1, r10 => r2
+sub    r4   , r5    => r2 //sub    r2, r11 => r4
+add    r2   , r7    => r6 //add    r4, r20 => r8
+store  r4           => r5 //store  r2 => r11
+store  r2           => r3 //store  r4 => r21
+store  r0           => r1 //store  r5 => r31
+output 1024               //output 1024
+output 1028               //output 1028
+output 2052               //output 2052

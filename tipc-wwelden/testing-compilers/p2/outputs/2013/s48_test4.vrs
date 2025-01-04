@@ -1,0 +1,47 @@
+loadI  1024         => r44 //loadI  1024 => r0
+loadI  4            => r37 //loadI  4 => r44
+load   r44          => r4 //load   r0 => r1
+add    r44  , r37   => r43 //add    r0, r44 => r0
+load   r43          => r10 //load   r0 => r2
+add    r43  , r37   => r42 //add    r0, r44 => r0
+load   r42          => r14 //load   r0 => r3
+add    r42  , r37   => r41 //add    r0, r44 => r0
+load   r41          => r18 //load   r0 => r4
+add    r41  , r37   => r40 //add    r0, r44 => r0
+load   r40          => r22 //load   r0 => r5
+add    r40  , r37   => r39 //add    r0, r44 => r0
+load   r39          => r26 //load   r0 => r6
+add    r39  , r37   => r38 //add    r0, r44 => r0
+load   r38          => r30 //load   r0 => r7
+add    r38  , r37   => r36 //add    r0, r44 => r0
+load   r36          => r34 //load   r0 => r8
+add    r36  , r37   => r35 //add    r0, r44 => r0
+load   r35          => r32 //load   r0 => r9
+loadI  10           => r31 //loadI  10 => r33
+loadI  10           => r7 //loadI  10 => r44
+mult   r34  , r31   => r33 //mult   r8, r33 => r8
+add    r32  , r33   => r28 //add    r9, r8 => r9
+mult   r31  , r7    => r27 //mult   r33, r44 => r33
+mult   r30  , r27   => r29 //mult   r7, r33 => r7
+add    r28  , r29   => r24 //add    r9, r7 => r9
+mult   r27  , r7    => r23 //mult   r33, r44 => r33
+mult   r26  , r23   => r25 //mult   r6, r33 => r6
+add    r24  , r25   => r20 //add    r9, r6 => r9
+mult   r23  , r7    => r19 //mult   r33, r44 => r33
+mult   r22  , r19   => r21 //mult   r5, r33 => r5
+add    r20  , r21   => r16 //add    r9, r5 => r9
+mult   r19  , r7    => r15 //mult   r33, r44 => r33
+mult   r18  , r15   => r17 //mult   r4, r33 => r4
+add    r16  , r17   => r12 //add    r9, r4 => r9
+mult   r15  , r7    => r11 //mult   r33, r44 => r33
+mult   r14  , r11   => r13 //mult   r3, r33 => r3
+add    r12  , r13   => r8 //add    r9, r3 => r9
+mult   r11  , r7    => r6 //mult   r33, r44 => r33
+mult   r10  , r6    => r9 //mult   r2, r33 => r2
+add    r8   , r9    => r2 //add    r9, r2 => r9
+mult   r6   , r7    => r5 //mult   r33, r44 => r33
+mult   r4   , r5    => r3 //mult   r1, r33 => r1
+add    r2   , r3    => r0 //add    r9, r1 => r9
+loadI  1024         => r1 //loadI  1024 => r0
+store  r0           => r1 //store  r9 => r0
+output 1024               //output 1024

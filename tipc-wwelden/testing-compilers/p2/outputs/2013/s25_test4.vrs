@@ -1,0 +1,10 @@
+loadI  1024         => r1 //loadI  1024 => r1
+load   r1           => r7 //load   r1 => r2
+loadI  32           => r6 //loadI  32 => r3
+add    r7   , r6    => r5 //add    r2, r3 => r4
+add    r5   , r6    => r3 //add    r4, r3 => r5
+add    r3   , r5    => r4 //add    r5, r4 => r6
+mult   r3   , r4    => r2 //mult   r5, r6 => r7
+store  r2           => r1 //store  r7 => r1
+output 1024               //output 1024
+load   r1           => r0 //load   r1 => r6

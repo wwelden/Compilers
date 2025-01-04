@@ -1,0 +1,8 @@
+loadI  1024         => r1 //loadI  1024 => r1
+load   r1           => r4 //load   r1 => r2
+add    r4   , r4    => r5 //add    r2, r2 => r3
+add    r4   , r5    => r3 //add    r2, r3 => r4
+add    r4   , r5    => r2 //add    r2, r3 => r5
+add    r2   , r3    => r0 //add    r5, r4 => r6
+store  r0           => r1 //store  r6 => r1
+output 1024               //output 1024

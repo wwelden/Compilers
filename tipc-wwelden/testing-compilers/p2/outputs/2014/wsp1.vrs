@@ -1,0 +1,20 @@
+loadI  1            => r17 //loadI  1 => r0
+loadI  2            => r14 //loadI  2 => r1
+loadI  3            => r15 //loadI  3 => r2
+loadI  4            => r13 //loadI  4 => r3
+loadI  5            => r11 //loadI  5 => r4
+loadI  6            => r9 //loadI  6 => r5
+loadI  7            => r7 //loadI  7 => r6
+loadI  8            => r5 //loadI  8 => r7
+loadI  2048         => r1 //loadI  2048 => r8
+add    r17  , r14   => r16 //add    r0, r1 => r9
+add    r16  , r9    => r3 //add    r9, r5 => r9
+mult   r14  , r15   => r12 //mult   r1, r2 => r0
+mult   r12  , r13   => r10 //mult   r0, r3 => r0
+mult   r10  , r11   => r8 //mult   r0, r4 => r0
+mult   r8   , r9    => r6 //mult   r0, r5 => r0
+mult   r6   , r7    => r4 //mult   r0, r6 => r0
+mult   r4   , r5    => r2 //mult   r0, r7 => r0
+mult   r2   , r3    => r0 //mult   r0, r9 => r0
+store  r0           => r1 //store  r0 => r8
+output 2048               //output 2048

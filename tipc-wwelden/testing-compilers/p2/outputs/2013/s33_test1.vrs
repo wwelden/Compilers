@@ -1,0 +1,17 @@
+loadI  1032         => r8 //loadI  1032 => r1
+loadI  1024         => r4 //loadI  1024 => r3
+loadI  1032         => r1 //loadI  1032 => r1
+store  r1           => r4 //store  r1 => r3
+output 1024               //output 1024
+sub    r1   , r4    => r3 //sub    r1, r3 => r4
+store  r3           => r4 //store  r4 => r3
+output 1024               //output 1024
+mult   r1   , r1    => r6 //mult   r1, r1 => r2
+store  r6           => r1 //store  r2 => r1
+output 1032               //output 1032
+lshift r6   , r1    => r7 //lshift r2, r1 => r6
+rshift r6   , r1    => r5 //rshift r2, r1 => r7
+load   r4           => r2 //load   r3 => r8
+add    r2   , r3    => r0 //add    r8, r4 => r8
+store  r0           => r1 //store  r8 => r1
+output 1032               //output 1032

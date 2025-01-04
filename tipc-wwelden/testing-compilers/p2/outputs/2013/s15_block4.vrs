@@ -1,0 +1,56 @@
+loadI  9            => r21 //loadI  9 => r0
+loadI  5            => r19 //loadI  5 => r1
+loadI  3            => r31 //loadI  3 => r2
+loadI  1            => r30 //loadI  1 => r3
+loadI  7            => r29 //loadI  7 => r4
+loadI  9            => r28 //loadI  9 => r5
+loadI  5            => r27 //loadI  5 => r6
+loadI  3            => r26 //loadI  3 => r7
+loadI  3            => r25 //loadI  3 => r8
+loadI  3            => r4 //loadI  3 => r9
+loadI  3            => r2 //loadI  3 => r10
+loadI  3            => r24 //loadI  3 => r11
+mult   r21  , r19   => r17 //mult   r0, r1 => r2
+mult   r19  , r17   => r15 //mult   r1, r2 => r3
+mult   r17  , r15   => r13 //mult   r2, r3 => r4
+mult   r15  , r13   => r11 //mult   r3, r4 => r5
+mult   r13  , r11   => r9 //mult   r4, r5 => r6
+mult   r11  , r9    => r7 //mult   r5, r6 => r7
+mult   r9   , r7    => r23 //mult   r6, r7 => r8
+mult   r4   , r2    => r0 //mult   r9, r10 => r11
+loadI  2000         => r22 //loadI  2000 => r12
+store  r21          => r22 //store  r0 => r12
+loadI  2004         => r20 //loadI  2004 => r12
+store  r19          => r20 //store  r1 => r12
+loadI  2008         => r18 //loadI  2008 => r12
+store  r17          => r18 //store  r2 => r12
+loadI  2012         => r16 //loadI  2012 => r12
+store  r15          => r16 //store  r3 => r12
+loadI  2016         => r14 //loadI  2016 => r12
+store  r13          => r14 //store  r4 => r12
+loadI  2020         => r12 //loadI  2020 => r12
+store  r11          => r12 //store  r5 => r12
+loadI  2024         => r10 //loadI  2024 => r12
+store  r9           => r10 //store  r6 => r12
+loadI  2028         => r8 //loadI  2028 => r12
+store  r7           => r8 //store  r7 => r12
+loadI  2032         => r6 //loadI  2032 => r12
+store  r6           => r6 //store  r12 => r12
+loadI  2036         => r5 //loadI  2036 => r12
+store  r4           => r5 //store  r9 => r12
+loadI  2040         => r3 //loadI  2040 => r12
+store  r2           => r3 //store  r10 => r12
+loadI  2044         => r1 //loadI  2044 => r12
+store  r0           => r1 //store  r11 => r12
+output 2000               //output 2000
+output 2004               //output 2004
+output 2008               //output 2008
+output 2012               //output 2012
+output 2016               //output 2016
+output 2020               //output 2020
+output 2024               //output 2024
+output 2028               //output 2028
+output 2032               //output 2032
+output 2036               //output 2036
+output 2040               //output 2040
+output 2044               //output 2044

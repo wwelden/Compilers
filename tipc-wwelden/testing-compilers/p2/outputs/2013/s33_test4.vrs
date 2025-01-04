@@ -1,0 +1,12 @@
+loadI  2000         => r1 //loadI  2000 => r1
+loadI  3000         => r7 //loadI  3000 => r2
+store  r7           => r1 //store  r2 => r1
+output 2000               //output 2000
+loadI  2            => r4 //loadI  2 => r3
+sub    r7   , r1    => r6 //sub    r2, r1 => r2
+mult   r6   , r4    => r2 //mult   r2, r3 => r2
+loadI  1            => r5 //loadI  1 => r4
+lshift r4   , r5    => r3 //lshift r3, r4 => r3
+mult   r2   , r3    => r0 //mult   r2, r3 => r2
+store  r0           => r1 //store  r2 => r1
+output 2000               //output 2000

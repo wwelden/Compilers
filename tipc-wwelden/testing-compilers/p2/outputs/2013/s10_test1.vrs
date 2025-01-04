@@ -1,0 +1,10 @@
+loadI  1            => r6 //loadI  1 => r0
+loadI  2            => r7 //loadI  2 => r1
+loadI  3            => r4 //loadI  3 => r2
+loadI  4            => r5 //loadI  4 => r3
+add    r6   , r7    => r2 //add    r0, r1 => r4
+add    r4   , r5    => r3 //add    r2, r3 => r5
+add    r2   , r3    => r0 //add    r4, r5 => r4
+loadI  2000         => r1 //loadI  2000 => r5
+store  r0           => r1 //store  r4 => r5
+output 2000               //output 2000

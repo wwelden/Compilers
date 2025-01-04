@@ -1,0 +1,85 @@
+loadI  2048         => r21 //loadI  2048 => r0
+loadI  2052         => r30 //loadI  2052 => r1
+loadI  2056         => r35 //loadI  2056 => r2
+loadI  2060         => r40 //loadI  2060 => r3
+loadI  2064         => r45 //loadI  2064 => r4
+loadI  2068         => r50 //loadI  2068 => r5
+loadI  2072         => r55 //loadI  2072 => r6
+loadI  2076         => r60 //loadI  2076 => r7
+loadI  2080         => r66 //loadI  2080 => r8
+loadI  2084         => r63 //loadI  2084 => r9
+loadI  0            => r64 //loadI  0 => r20
+loadI  10           => r27 //loadI  10 => r21
+loadI  9            => r23 //loadI  9 => r22
+loadI  0            => r17 //loadI  0 => r30
+loadI  4            => r18 //loadI  4 => r29
+mult   r64  , r23   => r65 //mult   r20, r22 => r40
+load   r66          => r57 //load   r8 => r8
+add    r65  , r57   => r16 //add    r40, r8 => r10
+mult   r64  , r27   => r61 //mult   r20, r21 => r20
+load   r63          => r62 //load   r9 => r9
+add    r61  , r62   => r58 //add    r20, r9 => r20
+mult   r58  , r23   => r59 //mult   r20, r22 => r41
+load   r60          => r52 //load   r7 => r7
+add    r59  , r52   => r14 //add    r41, r7 => r11
+mult   r58  , r27   => r56 //mult   r20, r21 => r20
+add    r56  , r57   => r53 //add    r20, r8 => r20
+mult   r53  , r23   => r54 //mult   r20, r22 => r42
+load   r55          => r47 //load   r6 => r6
+add    r54  , r47   => r12 //add    r42, r6 => r12
+mult   r53  , r27   => r51 //mult   r20, r21 => r20
+add    r51  , r52   => r48 //add    r20, r7 => r20
+mult   r48  , r23   => r49 //mult   r20, r22 => r43
+load   r50          => r42 //load   r5 => r5
+add    r49  , r42   => r10 //add    r43, r5 => r13
+mult   r48  , r27   => r46 //mult   r20, r21 => r20
+add    r46  , r47   => r43 //add    r20, r6 => r20
+mult   r43  , r23   => r44 //mult   r20, r22 => r44
+load   r45          => r37 //load   r4 => r4
+add    r44  , r37   => r8 //add    r44, r4 => r14
+mult   r43  , r27   => r41 //mult   r20, r21 => r20
+add    r41  , r42   => r38 //add    r20, r5 => r20
+mult   r38  , r23   => r39 //mult   r20, r22 => r45
+load   r40          => r32 //load   r3 => r3
+add    r39  , r32   => r6 //add    r45, r3 => r15
+mult   r38  , r27   => r36 //mult   r20, r21 => r20
+add    r36  , r37   => r33 //add    r20, r4 => r20
+mult   r33  , r23   => r34 //mult   r20, r22 => r46
+load   r35          => r25 //load   r2 => r2
+add    r34  , r25   => r4 //add    r46, r2 => r16
+mult   r33  , r27   => r31 //mult   r20, r21 => r20
+add    r31  , r32   => r26 //add    r20, r3 => r20
+mult   r26  , r23   => r28 //mult   r20, r22 => r47
+load   r30          => r29 //load   r1 => r1
+add    r28  , r29   => r2 //add    r47, r1 => r17
+mult   r26  , r27   => r24 //mult   r20, r21 => r20
+add    r24  , r25   => r22 //add    r20, r2 => r20
+mult   r22  , r23   => r19 //mult   r20, r22 => r48
+load   r21          => r20 //load   r0 => r0
+add    r19  , r20   => r0 //add    r48, r0 => r18
+add    r17  , r18   => r15 //add    r30, r29 => r31
+add    r15  , r18   => r13 //add    r31, r29 => r32
+add    r13  , r18   => r11 //add    r32, r29 => r33
+add    r11  , r18   => r9 //add    r33, r29 => r34
+add    r9   , r18   => r7 //add    r34, r29 => r35
+add    r7   , r18   => r5 //add    r35, r29 => r36
+add    r5   , r18   => r3 //add    r36, r29 => r37
+add    r3   , r18   => r1 //add    r37, r29 => r38
+store  r16          => r17 //store  r10 => r30
+store  r14          => r15 //store  r11 => r31
+store  r12          => r13 //store  r12 => r32
+store  r10          => r11 //store  r13 => r33
+store  r8           => r9 //store  r14 => r34
+store  r6           => r7 //store  r15 => r35
+store  r4           => r5 //store  r16 => r36
+store  r2           => r3 //store  r17 => r37
+store  r0           => r1 //store  r18 => r38
+output 0                  //output 0
+output 4                  //output 4
+output 8                  //output 8
+output 12                 //output 12
+output 16                 //output 16
+output 20                 //output 20
+output 24                 //output 24
+output 28                 //output 28
+output 32                 //output 32

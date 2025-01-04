@@ -1,0 +1,13 @@
+loadI  8            => r2 //loadI  8 => r1
+loadI  1            => r3 //loadI  1 => r2
+loadI  1            => r6 //loadI  1 => r3
+loadI  2000         => r7 //loadI  2000 => r4
+store  r6           => r7 //store  r3 => r4
+lshift r2   , r3    => r4 //lshift r1, r2 => r3
+loadI  2000         => r5 //loadI  2000 => r4
+store  r4           => r5 //store  r3 => r4
+output 2000               //output 2000
+rshift r2   , r3    => r0 //rshift r1, r2 => r3
+loadI  2000         => r1 //loadI  2000 => r4
+store  r0           => r1 //store  r3 => r4
+output 2000               //output 2000

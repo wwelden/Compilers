@@ -1,0 +1,68 @@
+loadI  1032         => r46 //loadI  1032 => r1
+loadI  1024         => r48 //loadI  1024 => r10
+load   r48          => r45 //load   r10 => r13
+loadI  4            => r28 //loadI  4 => r11
+loadI  1028         => r47 //loadI  1028 => r12
+load   r47          => r26 //load   r12 => r14
+store  r45          => r46 //store  r13 => r1
+add    r46  , r28   => r44 //add    r1, r11 => r15
+add    r45  , r26   => r43 //add    r13, r14 => r16
+store  r43          => r44 //store  r16 => r15
+add    r44  , r28   => r42 //add    r15, r11 => r17
+add    r43  , r26   => r41 //add    r16, r14 => r18
+store  r41          => r42 //store  r18 => r17
+add    r42  , r28   => r40 //add    r17, r11 => r19
+add    r41  , r26   => r39 //add    r18, r14 => r20
+store  r39          => r40 //store  r20 => r19
+add    r40  , r28   => r38 //add    r19, r11 => r21
+add    r39  , r26   => r37 //add    r20, r14 => r22
+store  r37          => r38 //store  r22 => r21
+add    r38  , r28   => r36 //add    r21, r11 => r23
+add    r37  , r26   => r35 //add    r22, r14 => r24
+store  r35          => r36 //store  r24 => r23
+add    r36  , r28   => r34 //add    r23, r11 => r25
+add    r35  , r26   => r33 //add    r24, r14 => r26
+store  r33          => r34 //store  r26 => r25
+add    r34  , r28   => r32 //add    r25, r11 => r27
+add    r33  , r26   => r31 //add    r26, r14 => r28
+store  r31          => r32 //store  r28 => r27
+add    r32  , r28   => r30 //add    r27, r11 => r29
+add    r31  , r26   => r29 //add    r28, r14 => r30
+store  r29          => r30 //store  r30 => r29
+add    r30  , r28   => r27 //add    r29, r11 => r31
+add    r29  , r26   => r25 //add    r30, r14 => r32
+store  r25          => r27 //store  r32 => r31
+add    r27  , r28   => r23 //add    r31, r11 => r33
+add    r25  , r26   => r24 //add    r32, r14 => r34
+store  r24          => r23 //store  r34 => r33
+load   r23          => r20 //load   r33 => r2
+loadI  1036         => r22 //loadI  1036 => r3
+load   r22          => r21 //load   r3 => r4
+mult   r20  , r21   => r18 //mult   r2, r4 => r5
+loadI  1040         => r19 //loadI  1040 => r6
+store  r18          => r19 //store  r5 => r6
+loadI  1044         => r17 //loadI  1044 => r35
+load   r17          => r14 //load   r35 => r36
+loadI  1048         => r16 //loadI  1048 => r37
+load   r16          => r15 //load   r37 => r38
+mult   r14  , r15   => r12 //mult   r36, r38 => r39
+loadI  1052         => r13 //loadI  1052 => r40
+store  r12          => r13 //store  r39 => r40
+loadI  1056         => r11 //loadI  1056 => r41
+load   r11          => r8 //load   r41 => r42
+loadI  1060         => r10 //loadI  1060 => r43
+load   r10          => r9 //load   r43 => r44
+mult   r8   , r9    => r6 //mult   r42, r44 => r45
+loadI  1064         => r7 //loadI  1064 => r46
+store  r6           => r7 //store  r45 => r46
+loadI  1068         => r5 //loadI  1068 => r47
+load   r5           => r2 //load   r47 => r48
+loadI  1072         => r4 //loadI  1072 => r49
+load   r4           => r3 //load   r49 => r50
+mult   r2   , r3    => r0 //mult   r48, r50 => r51
+loadI  1076         => r1 //loadI  1076 => r52
+store  r0           => r1 //store  r51 => r52
+output 1040               //output 1040
+output 1052               //output 1052
+output 1064               //output 1064
+output 1076               //output 1076

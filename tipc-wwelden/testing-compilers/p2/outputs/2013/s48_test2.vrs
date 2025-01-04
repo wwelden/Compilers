@@ -1,0 +1,66 @@
+loadI  1028         => r23 //loadI  1028 => r0
+load   r23          => r22 //load   r0 => r1
+output 1028               //output 1028
+loadI  4            => r24 //loadI  4 => r50
+add    r23  , r24   => r1 //add    r0, r50 => r0
+loadI  1            => r3 //loadI  1 => r2
+lshift r22  , r3    => r21 //lshift r1, r2 => r3
+store  r21          => r1 //store  r3 => r0
+output 1032               //output 1032
+lshift r21  , r3    => r20 //lshift r3, r2 => r4
+store  r20          => r1 //store  r4 => r0
+output 1032               //output 1032
+lshift r20  , r3    => r19 //lshift r4, r2 => r5
+store  r19          => r1 //store  r5 => r0
+output 1032               //output 1032
+lshift r19  , r3    => r18 //lshift r5, r2 => r6
+store  r18          => r1 //store  r6 => r0
+output 1032               //output 1032
+lshift r18  , r3    => r17 //lshift r6, r2 => r7
+store  r17          => r1 //store  r7 => r0
+output 1032               //output 1032
+lshift r17  , r3    => r16 //lshift r7, r2 => r8
+store  r16          => r1 //store  r8 => r0
+output 1032               //output 1032
+lshift r16  , r3    => r15 //lshift r8, r2 => r9
+store  r15          => r1 //store  r9 => r0
+output 1032               //output 1032
+lshift r15  , r3    => r14 //lshift r9, r2 => r10
+store  r14          => r1 //store  r10 => r0
+output 1032               //output 1032
+lshift r14  , r3    => r13 //lshift r10, r2 => r11
+store  r13          => r1 //store  r11 => r0
+output 1032               //output 1032
+lshift r13  , r3    => r12 //lshift r11, r2 => r12
+store  r12          => r1 //store  r12 => r0
+output 1032               //output 1032
+rshift r12  , r3    => r11 //rshift r12, r2 => r11
+store  r11          => r1 //store  r11 => r0
+output 1032               //output 1032
+rshift r11  , r3    => r10 //rshift r11, r2 => r10
+store  r10          => r1 //store  r10 => r0
+output 1032               //output 1032
+rshift r10  , r3    => r9 //rshift r10, r2 => r9
+store  r9           => r1 //store  r9 => r0
+output 1032               //output 1032
+rshift r9   , r3    => r8 //rshift r9, r2 => r8
+store  r8           => r1 //store  r8 => r0
+output 1032               //output 1032
+rshift r8   , r3    => r7 //rshift r8, r2 => r7
+store  r7           => r1 //store  r7 => r0
+output 1032               //output 1032
+rshift r7   , r3    => r6 //rshift r7, r2 => r6
+store  r6           => r1 //store  r6 => r0
+output 1032               //output 1032
+rshift r6   , r3    => r5 //rshift r6, r2 => r5
+store  r5           => r1 //store  r5 => r0
+output 1032               //output 1032
+rshift r5   , r3    => r4 //rshift r5, r2 => r4
+store  r4           => r1 //store  r4 => r0
+output 1032               //output 1032
+rshift r4   , r3    => r2 //rshift r4, r2 => r3
+store  r2           => r1 //store  r3 => r0
+output 1032               //output 1032
+rshift r2   , r3    => r0 //rshift r3, r2 => r2
+store  r0           => r1 //store  r2 => r0
+output 1032               //output 1032

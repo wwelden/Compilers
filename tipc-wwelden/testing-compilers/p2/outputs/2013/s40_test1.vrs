@@ -1,0 +1,23 @@
+loadI  0            => r12 //loadI  0 => r0
+loadI  1            => r11 //loadI  1 => r1
+loadI  4            => r2 //loadI  4 => r9
+loadI  2000         => r9 //loadI  2000 => r10
+add    r12  , r11   => r10 //add    r0, r1 => r2
+add    r10  , r11   => r8 //add    r2, r1 => r3
+add    r8   , r10   => r6 //add    r3, r2 => r4
+add    r10  , r6    => r4 //add    r2, r4 => r5
+add    r4   , r10   => r0 //add    r5, r2 => r6
+store  r10          => r9 //store  r2 => r10
+add    r2   , r9    => r7 //add    r9, r10 => r11
+store  r8           => r7 //store  r3 => r11
+add    r2   , r7    => r5 //add    r9, r11 => r12
+store  r6           => r5 //store  r4 => r12
+add    r5   , r2    => r3 //add    r12, r9 => r13
+store  r4           => r3 //store  r5 => r13
+add    r2   , r3    => r1 //add    r9, r13 => r13
+store  r0           => r1 //store  r6 => r13
+output 2000               //output 2000
+output 2004               //output 2004
+output 2008               //output 2008
+output 2012               //output 2012
+output 2016               //output 2016

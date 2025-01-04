@@ -1,0 +1,16 @@
+loadI  3000         => r1 //loadI  3000 => r8
+loadI  6            => r13 //loadI  6 => r0
+loadI  1            => r5 //loadI  1 => r1
+loadI  6            => r12 //loadI  6 => r10
+sub    r13  , r5    => r11 //sub    r0, r1 => r0
+mult   r12  , r11   => r10 //mult   r10, r0 => r10
+sub    r11  , r5    => r9 //sub    r0, r1 => r0
+mult   r10  , r9    => r8 //mult   r10, r0 => r10
+sub    r9   , r5    => r7 //sub    r0, r1 => r0
+mult   r8   , r7    => r6 //mult   r10, r0 => r10
+sub    r7   , r5    => r4 //sub    r0, r1 => r0
+mult   r6   , r4    => r2 //mult   r10, r0 => r10
+sub    r4   , r5    => r3 //sub    r0, r1 => r0
+mult   r2   , r3    => r0 //mult   r10, r0 => r10
+store  r0           => r1 //store  r10 => r8
+output 3000               //output 3000

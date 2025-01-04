@@ -1,0 +1,80 @@
+loadI  2048         => r77 //loadI  2048 => r0
+load   r77          => r27 //load   r0 => r0
+loadI  2052         => r76 //loadI  2052 => r1
+load   r76          => r41 //load   r1 => r1
+loadI  2056         => r75 //loadI  2056 => r2
+load   r75          => r61 //load   r2 => r2
+loadI  2060         => r74 //loadI  2060 => r3
+load   r74          => r58 //load   r3 => r3
+loadI  2064         => r73 //loadI  2064 => r4
+load   r73          => r21 //load   r4 => r4
+loadI  2068         => r72 //loadI  2068 => r5
+load   r72          => r39 //load   r5 => r5
+loadI  2072         => r71 //loadI  2072 => r6
+load   r71          => r59 //load   r6 => r6
+loadI  2076         => r70 //loadI  2076 => r7
+load   r70          => r56 //load   r7 => r7
+loadI  2080         => r69 //loadI  2080 => r8
+load   r69          => r15 //load   r8 => r8
+loadI  2084         => r68 //loadI  2084 => r9
+load   r68          => r36 //load   r9 => r9
+loadI  2088         => r67 //loadI  2088 => r10
+load   r67          => r57 //load   r10 => r10
+loadI  2092         => r66 //loadI  2092 => r11
+load   r66          => r55 //load   r11 => r11
+loadI  2096         => r65 //loadI  2096 => r12
+load   r65          => r9 //load   r12 => r12
+loadI  2100         => r64 //loadI  2100 => r13
+load   r64          => r32 //load   r13 => r13
+loadI  2104         => r63 //loadI  2104 => r14
+load   r63          => r54 //load   r14 => r14
+loadI  2108         => r62 //loadI  2108 => r15
+load   r62          => r60 //load   r15 => r15
+mult   r61  , r56   => r52 //mult   r2, r7 => r16
+mult   r61  , r55   => r50 //mult   r2, r11 => r17
+mult   r61  , r60   => r48 //mult   r2, r15 => r18
+mult   r59  , r55   => r46 //mult   r6, r11 => r19
+mult   r59  , r60   => r44 //mult   r6, r15 => r20
+mult   r57  , r60   => r42 //mult   r10, r15 => r21
+mult   r59  , r58   => r53 //mult   r6, r3 => r22
+mult   r57  , r58   => r51 //mult   r10, r3 => r23
+mult   r54  , r58   => r49 //mult   r14, r3 => r24
+mult   r57  , r56   => r47 //mult   r10, r7 => r25
+mult   r54  , r56   => r45 //mult   r14, r7 => r26
+mult   r54  , r55   => r43 //mult   r14, r11 => r27
+sub    r52  , r53   => r33 //sub    r16, r22 => r28
+sub    r50  , r51   => r34 //sub    r17, r23 => r29
+sub    r48  , r49   => r37 //sub    r18, r24 => r30
+sub    r46  , r47   => r35 //sub    r19, r25 => r31
+sub    r44  , r45   => r38 //sub    r20, r26 => r32
+sub    r42  , r43   => r40 //sub    r21, r27 => r33
+mult   r41  , r40   => r24 //mult   r1, r33 => r34
+mult   r41  , r38   => r18 //mult   r1, r32 => r35
+mult   r41  , r35   => r12 //mult   r1, r31 => r36
+mult   r39  , r40   => r30 //mult   r5, r33 => r37
+mult   r39  , r37   => r19 //mult   r5, r30 => r38
+mult   r39  , r34   => r13 //mult   r5, r29 => r39
+mult   r36  , r38   => r31 //mult   r9, r32 => r40
+mult   r36  , r37   => r25 //mult   r9, r30 => r41
+mult   r36  , r33   => r11 //mult   r9, r28 => r42
+mult   r32  , r35   => r29 //mult   r13, r31 => r43
+mult   r32  , r34   => r23 //mult   r13, r29 => r44
+mult   r32  , r33   => r17 //mult   r13, r28 => r45
+sub    r30  , r31   => r28 //sub    r37, r40 => r46
+add    r28  , r29   => r26 //add    r46, r43 => r46
+mult   r26  , r27   => r6 //mult   r46, r0 => r46
+sub    r24  , r25   => r22 //sub    r34, r41 => r47
+add    r22  , r23   => r20 //add    r47, r44 => r47
+mult   r20  , r21   => r7 //mult   r47, r4 => r47
+sub    r18  , r19   => r16 //sub    r35, r38 => r48
+add    r16  , r17   => r14 //add    r48, r45 => r48
+mult   r14  , r15   => r5 //mult   r48, r8 => r48
+sub    r12  , r13   => r10 //sub    r36, r39 => r49
+add    r10  , r11   => r8 //add    r49, r42 => r49
+mult   r8   , r9    => r3 //mult   r49, r12 => r49
+sub    r6   , r7    => r4 //sub    r46, r47 => r50
+add    r4   , r5    => r2 //add    r50, r48 => r50
+sub    r2   , r3    => r0 //sub    r50, r49 => r50
+loadI  2112         => r1 //loadI  2112 => r51
+store  r0           => r1 //store  r50 => r51
+output 2112               //output 2112

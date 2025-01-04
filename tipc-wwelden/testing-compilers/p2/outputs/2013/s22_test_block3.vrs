@@ -1,0 +1,33 @@
+loadI  1024         => r20 //loadI  1024 => r0
+loadI  4            => r2 //loadI  4 => r1
+load   r20          => r13 //load   r0 => r10
+add    r20  , r2    => r19 //add    r0, r1 => r0
+load   r19          => r14 //load   r0 => r11
+add    r19  , r2    => r18 //add    r0, r1 => r0
+load   r18          => r11 //load   r0 => r12
+add    r18  , r2    => r17 //add    r0, r1 => r0
+load   r17          => r8 //load   r0 => r13
+add    r17  , r2    => r16 //add    r0, r1 => r0
+load   r16          => r5 //load   r0 => r14
+loadI  0            => r15 //loadI  0 => r2
+store  r13          => r15 //store  r10 => r2
+add    r15  , r2    => r12 //add    r2, r1 => r2
+sub    r13  , r14   => r10 //sub    r10, r11 => r15
+store  r10          => r12 //store  r15 => r2
+add    r12  , r2    => r9 //add    r2, r1 => r2
+sub    r10  , r11   => r7 //sub    r15, r12 => r15
+store  r7           => r9 //store  r15 => r2
+add    r9   , r2    => r6 //add    r2, r1 => r2
+sub    r7   , r8    => r4 //sub    r15, r13 => r15
+store  r4           => r6 //store  r15 => r2
+add    r6   , r2    => r1 //add    r2, r1 => r2
+sub    r4   , r5    => r3 //sub    r15, r14 => r15
+store  r3           => r1 //store  r15 => r2
+add    r1   , r2    => r0 //add    r2, r1 => r2
+store  r0           => r0 //store  r2 => r2
+output 0                  //output 0
+output 4                  //output 4
+output 8                  //output 8
+output 12                 //output 12
+output 16                 //output 16
+output 20                 //output 20

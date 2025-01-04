@@ -1,0 +1,23 @@
+loadI  1            => r7 //loadI  1 => r1
+loadI  2            => r14 //loadI  2 => r2
+lshift r7   , r7    => r8 //lshift r1, r1 => r2
+lshift r8   , r7    => r13 //lshift r2, r1 => r3
+lshift r13  , r7    => r12 //lshift r3, r1 => r4
+lshift r12  , r7    => r5 //lshift r4, r1 => r5
+lshift r5   , r7    => r10 //lshift r5, r1 => r6
+loadI  2048         => r11 //loadI  2048 => r7
+store  r10          => r11 //store  r6 => r7
+add    r5   , r10   => r3 //add    r5, r6 => r8
+loadI  2052         => r9 //loadI  2052 => r7
+store  r3           => r9 //store  r8 => r7
+add    r7   , r8    => r6 //add    r1, r2 => r9
+mult   r5   , r6    => r2 //mult   r5, r9 => r10
+loadI  2056         => r4 //loadI  2056 => r7
+store  r2           => r4 //store  r10 => r7
+sub    r2   , r3    => r0 //sub    r10, r8 => r8
+loadI  2060         => r1 //loadI  2060 => r7
+store  r0           => r1 //store  r8 => r7
+output 2048               //output 2048
+output 2052               //output 2052
+output 2056               //output 2056
+output 2060               //output 2060

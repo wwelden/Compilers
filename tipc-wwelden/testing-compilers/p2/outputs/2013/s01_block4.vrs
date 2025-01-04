@@ -1,0 +1,70 @@
+loadI  1024         => r34 //loadI  1024 => r0
+loadI  4            => r3 //loadI  4 => r1
+loadI  0            => r35 //loadI  0 => r2
+store  r35          => r34 //store  r2 => r0
+loadI  1            => r5 //loadI  1 => r3
+add    r35  , r5    => r33 //add    r2, r3 => r2
+add    r34  , r3    => r32 //add    r0, r1 => r0
+store  r33          => r32 //store  r2 => r0
+add    r33  , r5    => r31 //add    r2, r3 => r2
+add    r32  , r3    => r30 //add    r0, r1 => r0
+store  r31          => r30 //store  r2 => r0
+add    r31  , r5    => r29 //add    r2, r3 => r2
+add    r30  , r3    => r28 //add    r0, r1 => r0
+store  r29          => r28 //store  r2 => r0
+add    r29  , r5    => r27 //add    r2, r3 => r2
+add    r28  , r3    => r26 //add    r0, r1 => r0
+store  r27          => r26 //store  r2 => r0
+add    r27  , r5    => r25 //add    r2, r3 => r2
+add    r26  , r3    => r24 //add    r0, r1 => r0
+store  r25          => r24 //store  r2 => r0
+add    r25  , r5    => r23 //add    r2, r3 => r2
+add    r24  , r3    => r22 //add    r0, r1 => r0
+store  r23          => r22 //store  r2 => r0
+add    r23  , r5    => r21 //add    r2, r3 => r2
+add    r22  , r3    => r20 //add    r0, r1 => r0
+store  r21          => r20 //store  r2 => r0
+add    r21  , r5    => r19 //add    r2, r3 => r2
+add    r20  , r3    => r18 //add    r0, r1 => r0
+store  r19          => r18 //store  r2 => r0
+add    r19  , r5    => r17 //add    r2, r3 => r2
+add    r18  , r3    => r16 //add    r0, r1 => r0
+store  r17          => r16 //store  r2 => r0
+add    r17  , r5    => r15 //add    r2, r3 => r2
+add    r16  , r3    => r14 //add    r0, r1 => r0
+store  r15          => r14 //store  r2 => r0
+add    r15  , r5    => r13 //add    r2, r3 => r2
+add    r14  , r3    => r12 //add    r0, r1 => r0
+store  r13          => r12 //store  r2 => r0
+add    r13  , r5    => r11 //add    r2, r3 => r2
+add    r12  , r3    => r10 //add    r0, r1 => r0
+store  r11          => r10 //store  r2 => r0
+add    r11  , r5    => r9 //add    r2, r3 => r2
+add    r10  , r3    => r8 //add    r0, r1 => r0
+store  r9           => r8 //store  r2 => r0
+add    r9   , r5    => r7 //add    r2, r3 => r2
+add    r8   , r3    => r6 //add    r0, r1 => r0
+store  r7           => r6 //store  r2 => r0
+add    r7   , r5    => r4 //add    r2, r3 => r2
+add    r6   , r3    => r2 //add    r0, r1 => r0
+store  r4           => r2 //store  r2 => r0
+add    r4   , r5    => r0 //add    r2, r3 => r2
+add    r2   , r3    => r1 //add    r0, r1 => r0
+store  r0           => r1 //store  r2 => r0
+output 1024               //output 1024
+output 1028               //output 1028
+output 1032               //output 1032
+output 1036               //output 1036
+output 1040               //output 1040
+output 1044               //output 1044
+output 1048               //output 1048
+output 1052               //output 1052
+output 1056               //output 1056
+output 1060               //output 1060
+output 1064               //output 1064
+output 1068               //output 1068
+output 1072               //output 1072
+output 1076               //output 1076
+output 1080               //output 1080
+output 1084               //output 1084
+output 1088               //output 1088

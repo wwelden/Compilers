@@ -1,0 +1,6 @@
+loadI  1024         => r0 //loadI  1024 => r1
+loadI  1028         => r1 //loadI  1028 => r10
+store  r1           => r0 //store  r10 => r1
+store  r0           => r1 //store  r1 => r10
+output 1024               //output 1024
+output 1028               //output 1028

@@ -1,0 +1,30 @@
+loadI  97           => r12 //loadI  97 => r1
+loadI  112          => r0 //loadI  112 => r2
+loadI  108          => r2 //loadI  108 => r3
+loadI  101          => r8 //loadI  101 => r4
+loadI  106          => r6 //loadI  106 => r5
+loadI  99           => r10 //loadI  99 => r7
+loadI  107          => r4 //loadI  107 => r8
+loadI  1024         => r13 //loadI  1024 => r0
+store  r12          => r13 //store  r1 => r0
+loadI  1032         => r11 //loadI  1032 => r0
+store  r10          => r11 //store  r7 => r0
+loadI  1040         => r9 //loadI  1040 => r0
+store  r8           => r9 //store  r4 => r0
+loadI  1060         => r7 //loadI  1060 => r0
+store  r6           => r7 //store  r5 => r0
+loadI  1064         => r5 //loadI  1064 => r0
+store  r4           => r5 //store  r8 => r0
+loadI  1068         => r3 //loadI  1068 => r0
+store  r2           => r3 //store  r3 => r0
+loadI  1084         => r1 //loadI  1084 => r0
+store  r0           => r1 //store  r2 => r0
+output 1024               //output 1024
+output 1084               //output 1084
+output 1084               //output 1084
+output 1068               //output 1068
+output 1040               //output 1040
+output 1060               //output 1060
+output 1024               //output 1024
+output 1032               //output 1032
+output 1064               //output 1064

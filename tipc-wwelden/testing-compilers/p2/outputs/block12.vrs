@@ -1,0 +1,43 @@
+loadI  1            => r5 //loadI  1 => r1
+loadI  1024         => r2 //loadI  1024 => r50
+lshift r5   , r5    => r38 //lshift r1, r1 => r2
+lshift r38  , r5    => r36 //lshift r2, r1 => r3
+lshift r36  , r5    => r37 //lshift r3, r1 => r4
+lshift r37  , r5    => r7 //lshift r4, r1 => r5
+lshift r7   , r5    => r35 //lshift r5, r1 => r6
+lshift r35  , r5    => r33 //lshift r6, r1 => r7
+lshift r33  , r5    => r34 //lshift r7, r1 => r8
+lshift r34  , r5    => r31 //lshift r8, r1 => r9
+lshift r31  , r5    => r32 //lshift r9, r1 => r10
+lshift r32  , r5    => r29 //lshift r10, r1 => r11
+lshift r29  , r5    => r30 //lshift r11, r1 => r12
+lshift r30  , r5    => r27 //lshift r12, r1 => r13
+lshift r27  , r5    => r28 //lshift r13, r1 => r14
+lshift r28  , r5    => r25 //lshift r14, r1 => r15
+lshift r25  , r5    => r26 //lshift r15, r1 => r16
+lshift r26  , r5    => r10 //lshift r16, r1 => r17
+add    r5   , r38   => r23 //add    r1, r2 => r20
+add    r36  , r37   => r24 //add    r3, r4 => r21
+add    r7   , r35   => r21 //add    r5, r6 => r22
+add    r33  , r34   => r22 //add    r7, r8 => r23
+add    r31  , r32   => r19 //add    r9, r10 => r24
+add    r29  , r30   => r20 //add    r11, r12 => r25
+add    r27  , r28   => r17 //add    r13, r14 => r26
+add    r25  , r26   => r18 //add    r15, r16 => r27
+add    r23  , r24   => r15 //add    r20, r21 => r30
+add    r21  , r22   => r16 //add    r22, r23 => r31
+add    r19  , r20   => r13 //add    r24, r25 => r32
+add    r17  , r18   => r14 //add    r26, r27 => r33
+add    r15  , r16   => r12 //add    r30, r31 => r34
+add    r13  , r14   => r11 //add    r32, r33 => r35
+add    r11  , r12   => r9 //add    r35, r34 => r36
+add    r9   , r10   => r8 //add    r36, r17 => r37
+store  r8           => r2 //store  r37 => r50
+add    r7   , r5    => r6 //add    r5, r1 => r40
+lshift r5   , r6    => r4 //lshift r1, r40 => r41
+sub    r4   , r5    => r0 //sub    r41, r1 => r42
+loadI  4            => r3 //loadI  4 => r1
+add    r2   , r3    => r1 //add    r50, r1 => r51
+store  r0           => r1 //store  r42 => r51
+output 1024               //output 1024
+output 1028               //output 1028

@@ -1,0 +1,29 @@
+loadI  1024         => r1 //loadI  1024 => r1
+load   r1           => r3 //load   r1 => r2
+load   r1           => r4 //load   r1 => r3
+add    r3   , r4    => r0 //add    r2, r3 => r4
+add    r3   , r4    => r26 //add    r2, r3 => r5
+add    r3   , r4    => r25 //add    r2, r3 => r6
+add    r3   , r4    => r24 //add    r2, r3 => r7
+add    r3   , r4    => r23 //add    r2, r3 => r8
+add    r3   , r4    => r22 //add    r2, r3 => r9
+add    r3   , r4    => r21 //add    r2, r3 => r10
+add    r3   , r4    => r20 //add    r2, r3 => r11
+add    r3   , r4    => r19 //add    r2, r3 => r12
+add    r3   , r4    => r18 //add    r2, r3 => r13
+add    r3   , r4    => r17 //add    r2, r3 => r14
+add    r3   , r4    => r16 //add    r2, r3 => r15
+add    r3   , r4    => r15 //add    r2, r3 => r16
+add    r3   , r4    => r14 //add    r2, r3 => r17
+add    r3   , r4    => r13 //add    r2, r3 => r18
+add    r3   , r4    => r12 //add    r2, r3 => r19
+add    r3   , r4    => r11 //add    r2, r3 => r20
+add    r3   , r4    => r10 //add    r2, r3 => r21
+add    r3   , r4    => r9 //add    r2, r3 => r21
+add    r3   , r4    => r8 //add    r2, r3 => r22
+add    r3   , r4    => r7 //add    r2, r3 => r23
+add    r3   , r4    => r6 //add    r2, r3 => r24
+add    r3   , r4    => r5 //add    r2, r3 => r25
+add    r3   , r4    => r2 //add    r2, r3 => r26
+store  r0           => r1 //store  r4 => r1
+output 1024               //output 1024

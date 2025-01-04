@@ -1,0 +1,35 @@
+loadI  4            => r18 //loadI  4 => r1
+loadI  8            => r19 //loadI  8 => r2
+loadI  1028         => r30 //loadI  1028 => r7
+load   r30          => r23 //load   r7 => r50
+add    r18  , r19   => r29 //add    r1, r2 => r3
+sub    r18  , r19   => r28 //sub    r1, r2 => r4
+mult   r18  , r19   => r27 //mult   r1, r2 => r5
+lshift r18  , r19   => r26 //lshift r1, r2 => r6
+loadI  1024         => r25 //loadI  1024 => r8
+load   r25          => r24 //load   r8 => r51
+add    r23  , r24   => r15 //add    r50, r51 => r52
+add    r18  , r19   => r22 //add    r1, r2 => r9
+sub    r18  , r19   => r21 //sub    r1, r2 => r10
+mult   r18  , r19   => r20 //mult   r1, r2 => r11
+lshift r18  , r19   => r17 //lshift r1, r2 => r12
+loadI  1032         => r16 //loadI  1032 => r13
+store  r15          => r16 //store  r52 => r13
+output 1032               //output 1032
+loadI  4            => r3 //loadI  4 => r1
+loadI  8            => r4 //loadI  8 => r2
+loadI  1028         => r14 //loadI  1028 => r7
+load   r14          => r8 //load   r7 => r50
+add    r3   , r4    => r13 //add    r1, r2 => r3
+sub    r3   , r4    => r12 //sub    r1, r2 => r4
+mult   r3   , r4    => r11 //mult   r1, r2 => r5
+lshift r3   , r4    => r10 //lshift r1, r2 => r6
+loadI  100          => r9 //loadI  100 => r51
+add    r8   , r9    => r0 //add    r50, r51 => r52
+add    r3   , r4    => r7 //add    r1, r2 => r9
+sub    r3   , r4    => r6 //sub    r1, r2 => r10
+mult   r3   , r4    => r5 //mult   r1, r2 => r11
+lshift r3   , r4    => r2 //lshift r1, r2 => r12
+loadI  1032         => r1 //loadI  1032 => r13
+store  r0           => r1 //store  r52 => r13
+output 1032               //output 1032

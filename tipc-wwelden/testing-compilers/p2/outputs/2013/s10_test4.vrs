@@ -1,0 +1,129 @@
+loadI  1            => r126 //loadI  1 => r1
+loadI  2            => r124 //loadI  2 => r2
+loadI  3            => r122 //loadI  3 => r3
+loadI  4            => r120 //loadI  4 => r4
+loadI  5            => r118 //loadI  5 => r5
+loadI  6            => r116 //loadI  6 => r6
+loadI  7            => r114 //loadI  7 => r7
+loadI  8            => r112 //loadI  8 => r8
+loadI  9            => r110 //loadI  9 => r9
+loadI  10           => r108 //loadI  10 => r10
+loadI  11           => r106 //loadI  11 => r11
+loadI  12           => r104 //loadI  12 => r12
+loadI  13           => r102 //loadI  13 => r13
+loadI  14           => r100 //loadI  14 => r14
+loadI  15           => r98 //loadI  15 => r15
+loadI  16           => r96 //loadI  16 => r16
+loadI  17           => r94 //loadI  17 => r17
+loadI  18           => r92 //loadI  18 => r18
+loadI  19           => r90 //loadI  19 => r19
+loadI  20           => r88 //loadI  20 => r20
+loadI  21           => r86 //loadI  21 => r21
+loadI  22           => r84 //loadI  22 => r22
+loadI  23           => r82 //loadI  23 => r23
+loadI  24           => r80 //loadI  24 => r24
+loadI  25           => r78 //loadI  25 => r25
+loadI  26           => r76 //loadI  26 => r26
+loadI  27           => r74 //loadI  27 => r27
+loadI  28           => r72 //loadI  28 => r28
+loadI  29           => r70 //loadI  29 => r29
+loadI  30           => r68 //loadI  30 => r30
+loadI  31           => r66 //loadI  31 => r31
+loadI  32           => r64 //loadI  32 => r32
+loadI  33           => r62 //loadI  33 => r33
+loadI  34           => r60 //loadI  34 => r34
+loadI  35           => r58 //loadI  35 => r35
+loadI  36           => r56 //loadI  36 => r36
+loadI  37           => r54 //loadI  37 => r37
+loadI  38           => r52 //loadI  38 => r38
+loadI  39           => r50 //loadI  39 => r39
+loadI  40           => r48 //loadI  40 => r40
+loadI  41           => r46 //loadI  41 => r41
+loadI  42           => r44 //loadI  42 => r42
+loadI  43           => r42 //loadI  43 => r43
+loadI  44           => r40 //loadI  44 => r44
+loadI  45           => r38 //loadI  45 => r45
+loadI  46           => r36 //loadI  46 => r46
+loadI  47           => r34 //loadI  47 => r47
+loadI  48           => r32 //loadI  48 => r48
+loadI  49           => r30 //loadI  49 => r49
+loadI  50           => r28 //loadI  50 => r50
+loadI  51           => r26 //loadI  51 => r51
+loadI  52           => r24 //loadI  52 => r52
+loadI  53           => r22 //loadI  53 => r53
+loadI  54           => r20 //loadI  54 => r54
+loadI  55           => r18 //loadI  55 => r55
+loadI  56           => r16 //loadI  56 => r56
+loadI  57           => r14 //loadI  57 => r57
+loadI  58           => r12 //loadI  58 => r58
+loadI  59           => r10 //loadI  59 => r59
+loadI  60           => r8 //loadI  60 => r60
+loadI  61           => r6 //loadI  61 => r61
+loadI  62           => r4 //loadI  62 => r62
+loadI  63           => r125 //loadI  63 => r63
+add    r125 , r126  => r123 //add    r63, r1 => r63
+add    r123 , r124  => r121 //add    r63, r2 => r63
+add    r121 , r122  => r119 //add    r63, r3 => r63
+add    r119 , r120  => r117 //add    r63, r4 => r63
+add    r117 , r118  => r115 //add    r63, r5 => r63
+add    r115 , r116  => r113 //add    r63, r6 => r63
+add    r113 , r114  => r111 //add    r63, r7 => r63
+add    r111 , r112  => r109 //add    r63, r8 => r63
+add    r109 , r110  => r107 //add    r63, r9 => r63
+add    r107 , r108  => r105 //add    r63, r10 => r63
+add    r105 , r106  => r103 //add    r63, r11 => r63
+add    r103 , r104  => r101 //add    r63, r12 => r63
+add    r101 , r102  => r99 //add    r63, r13 => r63
+add    r99  , r100  => r97 //add    r63, r14 => r63
+add    r97  , r98   => r95 //add    r63, r15 => r63
+add    r95  , r96   => r93 //add    r63, r16 => r63
+add    r93  , r94   => r91 //add    r63, r17 => r63
+add    r91  , r92   => r89 //add    r63, r18 => r63
+add    r89  , r90   => r87 //add    r63, r19 => r63
+add    r87  , r88   => r85 //add    r63, r20 => r63
+add    r85  , r86   => r83 //add    r63, r21 => r63
+add    r83  , r84   => r81 //add    r63, r22 => r63
+add    r81  , r82   => r79 //add    r63, r23 => r63
+add    r79  , r80   => r77 //add    r63, r24 => r63
+add    r77  , r78   => r75 //add    r63, r25 => r63
+add    r75  , r76   => r73 //add    r63, r26 => r63
+add    r73  , r74   => r71 //add    r63, r27 => r63
+add    r71  , r72   => r69 //add    r63, r28 => r63
+add    r69  , r70   => r67 //add    r63, r29 => r63
+add    r67  , r68   => r65 //add    r63, r30 => r63
+add    r65  , r66   => r63 //add    r63, r31 => r63
+add    r63  , r64   => r61 //add    r63, r32 => r63
+add    r61  , r62   => r59 //add    r63, r33 => r63
+add    r59  , r60   => r57 //add    r63, r34 => r63
+add    r57  , r58   => r55 //add    r63, r35 => r63
+add    r55  , r56   => r53 //add    r63, r36 => r63
+add    r53  , r54   => r51 //add    r63, r37 => r63
+add    r51  , r52   => r49 //add    r63, r38 => r63
+add    r49  , r50   => r47 //add    r63, r39 => r63
+add    r47  , r48   => r45 //add    r63, r40 => r63
+add    r45  , r46   => r43 //add    r63, r41 => r63
+add    r43  , r44   => r41 //add    r63, r42 => r63
+add    r41  , r42   => r39 //add    r63, r43 => r63
+add    r39  , r40   => r37 //add    r63, r44 => r63
+add    r37  , r38   => r35 //add    r63, r45 => r63
+add    r35  , r36   => r33 //add    r63, r46 => r63
+add    r33  , r34   => r31 //add    r63, r47 => r63
+add    r31  , r32   => r29 //add    r63, r48 => r63
+add    r29  , r30   => r27 //add    r63, r49 => r63
+add    r27  , r28   => r25 //add    r63, r50 => r63
+add    r25  , r26   => r23 //add    r63, r51 => r63
+add    r23  , r24   => r21 //add    r63, r52 => r63
+add    r21  , r22   => r19 //add    r63, r53 => r63
+add    r19  , r20   => r17 //add    r63, r54 => r63
+add    r17  , r18   => r15 //add    r63, r55 => r63
+add    r15  , r16   => r13 //add    r63, r56 => r63
+add    r13  , r14   => r11 //add    r63, r57 => r63
+add    r11  , r12   => r9 //add    r63, r58 => r63
+add    r9   , r10   => r7 //add    r63, r59 => r63
+add    r7   , r8    => r5 //add    r63, r60 => r63
+add    r5   , r6    => r3 //add    r63, r61 => r63
+add    r3   , r4    => r2 //add    r63, r62 => r63
+add    r2   , r2    => r0 //add    r63, r63 => r63
+loadI  1500         => r1 //loadI  1500 => r0
+store  r0           => r1 //store  r63 => r0
+output 1500               //output 1500

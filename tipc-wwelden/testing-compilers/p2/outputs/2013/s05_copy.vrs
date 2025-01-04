@@ -1,0 +1,32 @@
+loadI  1024         => r19 //loadI  1024 => r0
+loadI  2048         => r18 //loadI  2048 => r1
+loadI  4            => r2 //loadI  4 => r2
+load   r19          => r20 //load   r0 => r4
+store  r20          => r18 //store  r4 => r1
+add    r2   , r19   => r16 //add    r2, r0 => r0
+add    r18  , r2    => r15 //add    r1, r2 => r1
+load   r16          => r17 //load   r0 => r4
+store  r17          => r15 //store  r4 => r1
+add    r2   , r16   => r13 //add    r2, r0 => r0
+add    r15  , r2    => r12 //add    r1, r2 => r1
+load   r13          => r14 //load   r0 => r4
+store  r14          => r12 //store  r4 => r1
+add    r2   , r13   => r10 //add    r2, r0 => r0
+add    r12  , r2    => r9 //add    r1, r2 => r1
+load   r10          => r11 //load   r0 => r4
+store  r11          => r9 //store  r4 => r1
+add    r2   , r10   => r7 //add    r2, r0 => r0
+add    r9   , r2    => r6 //add    r1, r2 => r1
+load   r7           => r8 //load   r0 => r4
+store  r8           => r6 //store  r4 => r1
+add    r2   , r7    => r4 //add    r2, r0 => r0
+add    r6   , r2    => r1 //add    r1, r2 => r1
+load   r4           => r5 //load   r0 => r4
+store  r5           => r1 //store  r4 => r1
+add    r2   , r4    => r3 //add    r2, r0 => r0
+add    r1   , r2    => r0 //add    r1, r2 => r1
+output 2048               //output 2048
+output 2052               //output 2052
+output 2056               //output 2056
+output 2060               //output 2060
+output 2064               //output 2064

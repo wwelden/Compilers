@@ -1,0 +1,19 @@
+loadI  0            => r16 //loadI  0 => r0
+loadI  1            => r15 //loadI  1 => r1
+loadI  2            => r14 //loadI  2 => r2
+loadI  3            => r13 //loadI  3 => r3
+loadI  4            => r5 //loadI  4 => r4
+loadI  5            => r8 //loadI  5 => r5
+loadI  6            => r11 //loadI  6 => r6
+loadI  7            => r12 //loadI  7 => r7
+loadI  8            => r9 //loadI  8 => r8
+loadI  9            => r6 //loadI  9 => r9
+add    r13  , r12   => r2 //add    r3, r7 => r10
+add    r5   , r12   => r3 //add    r4, r7 => r11
+add    r11  , r11   => r10 //add    r6, r6 => r12
+add    r8   , r9    => r7 //add    r5, r8 => r13
+add    r5   , r6    => r4 //add    r4, r9 => r14
+add    r2   , r3    => r0 //add    r10, r11 => r15
+loadI  1024         => r1 //loadI  1024 => r16
+store  r0           => r1 //store  r15 => r16
+output 1024               //output 1024

@@ -1,0 +1,37 @@
+loadI  1024         => r1 //loadI  1024 => r0
+loadI  1            => r3 //loadI  1 => r1
+loadI  4            => r16 //loadI  4 => r4
+loadI  6            => r15 //loadI  6 => r3
+store  r15          => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r15  , r3    => r13 //rshift r3, r1 => r3
+store  r13          => r1 //store  r3 => r0
+output 1024               //output 1024
+add    r13  , r13   => r14 //add    r3, r3 => r22
+add    r13  , r14   => r12 //add    r3, r22 => r3
+add    r12  , r3    => r11 //add    r3, r1 => r3
+store  r11          => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r11  , r3    => r9 //rshift r3, r1 => r3
+store  r9           => r1 //store  r3 => r0
+output 1024               //output 1024
+add    r9   , r9    => r10 //add    r3, r3 => r22
+add    r9   , r10   => r8 //add    r3, r22 => r3
+add    r8   , r3    => r7 //add    r3, r1 => r3
+store  r7           => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r7   , r3    => r6 //rshift r3, r1 => r3
+store  r6           => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r6   , r3    => r5 //rshift r3, r1 => r3
+store  r5           => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r5   , r3    => r4 //rshift r3, r1 => r3
+store  r4           => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r4   , r3    => r2 //rshift r3, r1 => r3
+store  r2           => r1 //store  r3 => r0
+output 1024               //output 1024
+rshift r2   , r3    => r0 //rshift r3, r1 => r3
+store  r0           => r1 //store  r3 => r0
+output 1024               //output 1024

@@ -1,0 +1,11 @@
+loadI  1024         => r1 //loadI  1024 => r1
+load   r1           => r6 //load   r1 => r2
+loadI  1028         => r3 //loadI  1028 => r4
+load   r3           => r5 //load   r4 => r5
+lshift r5   , r6    => r4 //lshift r5, r2 => r6
+lshift r4   , r5    => r2 //lshift r6, r5 => r2
+lshift r2   , r4    => r0 //lshift r2, r6 => r5
+store  r2           => r3 //store  r2 => r4
+store  r0           => r1 //store  r5 => r1
+output 1024               //output 1024
+output 1028               //output 1028

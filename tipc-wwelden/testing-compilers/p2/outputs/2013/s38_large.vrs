@@ -1,0 +1,241 @@
+loadI  0            => r96 //loadI  0 => r0
+loadI  1            => r144 //loadI  1 => r1
+loadI  2            => r143 //loadI  2 => r2
+loadI  3            => r142 //loadI  3 => r3
+loadI  4            => r141 //loadI  4 => r4
+loadI  5            => r140 //loadI  5 => r5
+loadI  6            => r139 //loadI  6 => r6
+loadI  7            => r138 //loadI  7 => r7
+loadI  8            => r137 //loadI  8 => r8
+loadI  9            => r136 //loadI  9 => r9
+loadI  10           => r135 //loadI  10 => r10
+loadI  11           => r134 //loadI  11 => r11
+loadI  12           => r133 //loadI  12 => r12
+loadI  13           => r132 //loadI  13 => r13
+loadI  14           => r131 //loadI  14 => r14
+loadI  15           => r130 //loadI  15 => r15
+loadI  16           => r129 //loadI  16 => r16
+loadI  17           => r128 //loadI  17 => r17
+loadI  18           => r127 //loadI  18 => r18
+loadI  19           => r126 //loadI  19 => r19
+loadI  20           => r125 //loadI  20 => r20
+loadI  21           => r124 //loadI  21 => r21
+loadI  22           => r123 //loadI  22 => r22
+loadI  23           => r122 //loadI  23 => r23
+loadI  24           => r121 //loadI  24 => r24
+loadI  25           => r120 //loadI  25 => r25
+loadI  26           => r119 //loadI  26 => r26
+loadI  27           => r118 //loadI  27 => r27
+loadI  28           => r117 //loadI  28 => r28
+loadI  29           => r116 //loadI  29 => r29
+loadI  30           => r115 //loadI  30 => r30
+loadI  31           => r114 //loadI  31 => r31
+loadI  32           => r113 //loadI  32 => r32
+loadI  33           => r112 //loadI  33 => r33
+loadI  34           => r111 //loadI  34 => r34
+loadI  35           => r110 //loadI  35 => r35
+loadI  36           => r109 //loadI  36 => r36
+loadI  37           => r108 //loadI  37 => r37
+loadI  38           => r107 //loadI  38 => r38
+loadI  39           => r106 //loadI  39 => r39
+loadI  40           => r105 //loadI  40 => r40
+loadI  41           => r104 //loadI  41 => r41
+loadI  42           => r103 //loadI  42 => r42
+loadI  43           => r102 //loadI  43 => r43
+loadI  44           => r101 //loadI  44 => r44
+loadI  45           => r100 //loadI  45 => r45
+loadI  46           => r99 //loadI  46 => r46
+loadI  47           => r98 //loadI  47 => r47
+loadI  48           => r97 //loadI  48 => r48
+add    r96  , r144  => r94 //add    r0, r1 => r1
+add    r96  , r143  => r92 //add    r0, r2 => r2
+add    r96  , r142  => r90 //add    r0, r3 => r3
+add    r96  , r141  => r88 //add    r0, r4 => r4
+add    r96  , r140  => r86 //add    r0, r5 => r5
+add    r96  , r139  => r84 //add    r0, r6 => r6
+add    r96  , r138  => r82 //add    r0, r7 => r7
+add    r96  , r137  => r80 //add    r0, r8 => r8
+add    r96  , r136  => r78 //add    r0, r9 => r9
+add    r96  , r135  => r76 //add    r0, r10 => r10
+add    r96  , r134  => r74 //add    r0, r11 => r11
+add    r96  , r133  => r72 //add    r0, r12 => r12
+add    r96  , r132  => r70 //add    r0, r13 => r13
+add    r96  , r131  => r68 //add    r0, r14 => r14
+add    r96  , r130  => r66 //add    r0, r15 => r15
+add    r96  , r129  => r64 //add    r0, r16 => r16
+add    r96  , r128  => r62 //add    r0, r17 => r17
+add    r96  , r127  => r60 //add    r0, r18 => r18
+add    r96  , r126  => r58 //add    r0, r19 => r19
+add    r96  , r125  => r56 //add    r0, r20 => r20
+add    r96  , r124  => r54 //add    r0, r21 => r21
+add    r96  , r123  => r52 //add    r0, r22 => r22
+add    r96  , r122  => r50 //add    r0, r23 => r23
+add    r96  , r121  => r48 //add    r0, r24 => r24
+add    r96  , r120  => r46 //add    r0, r25 => r25
+add    r96  , r119  => r44 //add    r0, r26 => r26
+add    r96  , r118  => r42 //add    r0, r27 => r27
+add    r96  , r117  => r40 //add    r0, r28 => r28
+add    r96  , r116  => r38 //add    r0, r29 => r29
+add    r96  , r115  => r36 //add    r0, r30 => r30
+add    r96  , r114  => r34 //add    r0, r31 => r31
+add    r96  , r113  => r32 //add    r0, r32 => r32
+add    r96  , r112  => r30 //add    r0, r33 => r33
+add    r96  , r111  => r28 //add    r0, r34 => r34
+add    r96  , r110  => r26 //add    r0, r35 => r35
+add    r96  , r109  => r24 //add    r0, r36 => r36
+add    r96  , r108  => r22 //add    r0, r37 => r37
+add    r96  , r107  => r20 //add    r0, r38 => r38
+add    r96  , r106  => r18 //add    r0, r39 => r39
+add    r96  , r105  => r16 //add    r0, r40 => r40
+add    r96  , r104  => r14 //add    r0, r41 => r41
+add    r96  , r103  => r12 //add    r0, r42 => r42
+add    r96  , r102  => r10 //add    r0, r43 => r43
+add    r96  , r101  => r8 //add    r0, r44 => r44
+add    r96  , r100  => r6 //add    r0, r45 => r45
+add    r96  , r99   => r4 //add    r0, r46 => r46
+add    r96  , r98   => r2 //add    r0, r47 => r47
+add    r96  , r97   => r0 //add    r0, r48 => r48
+loadI  1024         => r95 //loadI  1024 => r0
+store  r94          => r95 //store  r1 => r0
+loadI  1028         => r93 //loadI  1028 => r0
+store  r92          => r93 //store  r2 => r0
+loadI  1032         => r91 //loadI  1032 => r0
+store  r90          => r91 //store  r3 => r0
+loadI  1036         => r89 //loadI  1036 => r0
+store  r88          => r89 //store  r4 => r0
+loadI  1040         => r87 //loadI  1040 => r0
+store  r86          => r87 //store  r5 => r0
+loadI  1044         => r85 //loadI  1044 => r0
+store  r84          => r85 //store  r6 => r0
+loadI  1048         => r83 //loadI  1048 => r0
+store  r82          => r83 //store  r7 => r0
+loadI  1052         => r81 //loadI  1052 => r0
+store  r80          => r81 //store  r8 => r0
+loadI  1056         => r79 //loadI  1056 => r0
+store  r78          => r79 //store  r9 => r0
+loadI  1060         => r77 //loadI  1060 => r0
+store  r76          => r77 //store  r10 => r0
+loadI  1064         => r75 //loadI  1064 => r0
+store  r74          => r75 //store  r11 => r0
+loadI  1068         => r73 //loadI  1068 => r0
+store  r72          => r73 //store  r12 => r0
+loadI  1072         => r71 //loadI  1072 => r0
+store  r70          => r71 //store  r13 => r0
+loadI  1076         => r69 //loadI  1076 => r0
+store  r68          => r69 //store  r14 => r0
+loadI  1080         => r67 //loadI  1080 => r0
+store  r66          => r67 //store  r15 => r0
+loadI  1084         => r65 //loadI  1084 => r0
+store  r64          => r65 //store  r16 => r0
+loadI  1088         => r63 //loadI  1088 => r0
+store  r62          => r63 //store  r17 => r0
+loadI  1092         => r61 //loadI  1092 => r0
+store  r60          => r61 //store  r18 => r0
+loadI  1096         => r59 //loadI  1096 => r0
+store  r58          => r59 //store  r19 => r0
+loadI  1100         => r57 //loadI  1100 => r0
+store  r56          => r57 //store  r20 => r0
+loadI  1104         => r55 //loadI  1104 => r0
+store  r54          => r55 //store  r21 => r0
+loadI  1108         => r53 //loadI  1108 => r0
+store  r52          => r53 //store  r22 => r0
+loadI  1112         => r51 //loadI  1112 => r0
+store  r50          => r51 //store  r23 => r0
+loadI  1116         => r49 //loadI  1116 => r0
+store  r48          => r49 //store  r24 => r0
+loadI  1120         => r47 //loadI  1120 => r0
+store  r46          => r47 //store  r25 => r0
+loadI  1124         => r45 //loadI  1124 => r0
+store  r44          => r45 //store  r26 => r0
+loadI  1128         => r43 //loadI  1128 => r0
+store  r42          => r43 //store  r27 => r0
+loadI  1132         => r41 //loadI  1132 => r0
+store  r40          => r41 //store  r28 => r0
+loadI  1136         => r39 //loadI  1136 => r0
+store  r38          => r39 //store  r29 => r0
+loadI  1140         => r37 //loadI  1140 => r0
+store  r36          => r37 //store  r30 => r0
+loadI  1144         => r35 //loadI  1144 => r0
+store  r34          => r35 //store  r31 => r0
+loadI  1148         => r33 //loadI  1148 => r0
+store  r32          => r33 //store  r32 => r0
+loadI  1152         => r31 //loadI  1152 => r0
+store  r30          => r31 //store  r33 => r0
+loadI  1156         => r29 //loadI  1156 => r0
+store  r28          => r29 //store  r34 => r0
+loadI  1160         => r27 //loadI  1160 => r0
+store  r26          => r27 //store  r35 => r0
+loadI  1164         => r25 //loadI  1164 => r0
+store  r24          => r25 //store  r36 => r0
+loadI  1168         => r23 //loadI  1168 => r0
+store  r22          => r23 //store  r37 => r0
+loadI  1172         => r21 //loadI  1172 => r0
+store  r20          => r21 //store  r38 => r0
+loadI  1176         => r19 //loadI  1176 => r0
+store  r18          => r19 //store  r39 => r0
+loadI  1180         => r17 //loadI  1180 => r0
+store  r16          => r17 //store  r40 => r0
+loadI  1184         => r15 //loadI  1184 => r0
+store  r14          => r15 //store  r41 => r0
+loadI  1188         => r13 //loadI  1188 => r0
+store  r12          => r13 //store  r42 => r0
+loadI  1192         => r11 //loadI  1192 => r0
+store  r10          => r11 //store  r43 => r0
+loadI  1196         => r9 //loadI  1196 => r0
+store  r8           => r9 //store  r44 => r0
+loadI  1200         => r7 //loadI  1200 => r0
+store  r6           => r7 //store  r45 => r0
+loadI  1204         => r5 //loadI  1204 => r0
+store  r4           => r5 //store  r46 => r0
+loadI  1208         => r3 //loadI  1208 => r0
+store  r2           => r3 //store  r47 => r0
+loadI  1212         => r1 //loadI  1212 => r0
+store  r0           => r1 //store  r48 => r0
+output 1024               //output 1024
+output 1028               //output 1028
+output 1032               //output 1032
+output 1036               //output 1036
+output 1040               //output 1040
+output 1044               //output 1044
+output 1048               //output 1048
+output 1052               //output 1052
+output 1056               //output 1056
+output 1060               //output 1060
+output 1064               //output 1064
+output 1068               //output 1068
+output 1072               //output 1072
+output 1076               //output 1076
+output 1080               //output 1080
+output 1084               //output 1084
+output 1088               //output 1088
+output 1092               //output 1092
+output 1096               //output 1096
+output 1100               //output 1100
+output 1104               //output 1104
+output 1108               //output 1108
+output 1112               //output 1112
+output 1116               //output 1116
+output 1120               //output 1120
+output 1124               //output 1124
+output 1128               //output 1128
+output 1132               //output 1132
+output 1136               //output 1136
+output 1140               //output 1140
+output 1144               //output 1144
+output 1148               //output 1148
+output 1152               //output 1152
+output 1156               //output 1156
+output 1160               //output 1160
+output 1164               //output 1164
+output 1168               //output 1168
+output 1172               //output 1172
+output 1176               //output 1176
+output 1180               //output 1180
+output 1184               //output 1184
+output 1188               //output 1188
+output 1192               //output 1192
+output 1196               //output 1196
+output 1200               //output 1200
+output 1204               //output 1204
+output 1208               //output 1208
+output 1212               //output 1212
