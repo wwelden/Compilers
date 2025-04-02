@@ -1,0 +1,241 @@
+-----
+FILE: 'blocks/timing//T128k.i'
+INPUT: ''
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 127977'
+
+127977
+
+Executed 639922 instructions and 639922 operations in 895876 cycles.
+----+
+127977
+
+Executed 611464 instructions and 611464 operations in 853198 cycles.
+----+
+127977
+
+Executed 497704 instructions and 497704 operations in 682558 cycles.
+----+
+127977
+
+Executed 383944 instructions and 383944 operations in 511918 cycles.
+----+
+127977
+
+Executed 270184 instructions and 270184 operations in 341278 cycles.
+----+
+127977
+
+Executed 156436 instructions and 156436 operations in 170656 cycles.
+----+
+-----
+FILE: 'blocks/timing//T16k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 15977'
+
+15977
+
+Executed 79922 instructions and 79922 operations in 111876 cycles.
+----+
+15977
+
+Executed 76356 instructions and 76356 operations in 106536 cycles.
+----+
+15977
+
+Executed 62148 instructions and 62148 operations in 85224 cycles.
+----+
+15977
+
+Executed 47940 instructions and 47940 operations in 63912 cycles.
+----+
+15977
+
+Executed 33740 instructions and 33740 operations in 42612 cycles.
+----+
+15977
+
+Executed 19548 instructions and 19548 operations in 21324 cycles.
+----+
+-----
+FILE: 'blocks/timing//T1k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 977'
+
+977
+
+Executed 4922 instructions and 4922 operations in 6876 cycles.
+----+
+977
+
+Executed 4688 instructions and 4688 operations in 6534 cycles.
+----+
+977
+
+Executed 3808 instructions and 3808 operations in 5214 cycles.
+----+
+977
+
+Executed 2944 instructions and 2944 operations in 3918 cycles.
+----+
+977
+
+Executed 2080 instructions and 2080 operations in 2622 cycles.
+----+
+977
+
+Executed 1216 instructions and 1216 operations in 1326 cycles.
+----+
+-----
+FILE: 'blocks/timing//T2k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 1977'
+
+1977
+
+Executed 9922 instructions and 9922 operations in 13876 cycles.
+----+
+1977
+
+Executed 9468 instructions and 9468 operations in 13204 cycles.
+----+
+1977
+
+Executed 7708 instructions and 7708 operations in 10564 cycles.
+----+
+1977
+
+Executed 5948 instructions and 5948 operations in 7924 cycles.
+----+
+1977
+
+Executed 4188 instructions and 4188 operations in 5284 cycles.
+----+
+1977
+
+Executed 2436 instructions and 2436 operations in 2656 cycles.
+----+
+-----
+FILE: 'blocks/timing//T32k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 31977'
+
+31977
+
+Executed 159922 instructions and 159922 operations in 223876 cycles.
+----+
+31977
+
+Executed 152800 instructions and 152800 operations in 213202 cycles.
+----+
+31977
+
+Executed 124368 instructions and 124368 operations in 170554 cycles.
+----+
+31977
+
+Executed 95936 instructions and 95936 operations in 127906 cycles.
+----+
+31977
+
+Executed 67520 instructions and 67520 operations in 85282 cycles.
+----+
+31977
+
+Executed 39104 instructions and 39104 operations in 42658 cycles.
+----+
+-----
+FILE: 'blocks/timing//T4k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 3977'
+
+3977
+
+Executed 19922 instructions and 19922 operations in 27876 cycles.
+----+
+3977
+
+Executed 19020 instructions and 19020 operations in 26532 cycles.
+----+
+3977
+
+Executed 15484 instructions and 15484 operations in 21228 cycles.
+----+
+3977
+
+Executed 11948 instructions and 11948 operations in 15924 cycles.
+----+
+3977
+
+Executed 8412 instructions and 8412 operations in 10620 cycles.
+----+
+3977
+
+Executed 4880 instructions and 4880 operations in 5322 cycles.
+----+
+-----
+FILE: 'blocks/timing//T64k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 63977'
+
+63977
+
+Executed 319922 instructions and 319922 operations in 447876 cycles.
+----+
+63977
+
+Executed 305684 instructions and 305684 operations in 426528 cycles.
+----+
+63977
+
+Executed 248808 instructions and 248808 operations in 341214 cycles.
+----+
+63977
+
+Executed 191944 instructions and 191944 operations in 255918 cycles.
+----+
+63977
+
+Executed 135080 instructions and 135080 operations in 170622 cycles.
+----+
+63977
+
+Executed 78216 instructions and 78216 operations in 85326 cycles.
+----+
+-----
+FILE: 'blocks/timing//T8k.i'
+INPUT: ' '
+K: '3, 4, 8, 12, 16, 20'
+EXPECTED OUTPUT: ' 7977'
+
+7977
+
+Executed 39922 instructions and 39922 operations in 55876 cycles.
+----+
+7977
+
+Executed 38132 instructions and 38132 operations in 53200 cycles.
+----+
+7977
+
+Executed 31036 instructions and 31036 operations in 42556 cycles.
+----+
+7977
+
+Executed 23948 instructions and 23948 operations in 31924 cycles.
+----+
+7977
+
+Executed 16860 instructions and 16860 operations in 21292 cycles.
+----+
+7977
+
+Executed 9772 instructions and 9772 operations in 10660 cycles.
+----+
+-----

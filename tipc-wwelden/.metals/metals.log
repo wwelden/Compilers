@@ -1,0 +1,91 @@
+2023.08.28 19:09:10 WARN  Build server is not auto-connectable.
+2023.08.28 19:09:10 WARN  no build tool detected in workspace '/Users/williamwelden/tipc-wwelden'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.28 19:09:12 INFO  [info] loading settings for project cs2examples-s22-wwelden from build.sbt ...
+2023.08.28 19:09:12 INFO  [info] set current project to cs2inclass (in build file:/Users/williamwelden/cs2examples-s22-wwelden/)
+2023.08.28 19:09:12 INFO  [warn] scala-library-2.13.5.jar no longer exists at /Users/williamwelden/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+2023.08.28 19:09:21 INFO  [success] Generated .bloop/cs2examples-s22-wwelden.json
+2023.08.28 19:09:21 INFO  [success] Generated .bloop/cs2examples-s22-wwelden-test.json
+2023.08.28 19:09:21 INFO  [success] Total time: 8 s, completed Aug 28, 2023, 7:09:21 PM
+2023.08.28 19:09:21 INFO  time: ran 'sbt bloopInstall' in 37s
+2023.08.28 19:09:21 INFO  Attempting to connect to the build server...
+2023.08.28 19:09:21 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home defined at /Users/williamwelden/.bloop/bloop.json
+2023.08.28 19:09:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/williamwelden/cs2examples-s22-wwelden/.metals/bsp.trace.json or /Users/williamwelden/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.28 19:09:27 INFO  Attempting to connect to the build server...
+2023.08.28 19:09:27 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home defined at /Users/williamwelden/.bloop/bloop.json
+2023.08.28 19:09:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/williamwelden/cs2examples-s22-wwelden/project/.metals/bsp.trace.json or /Users/williamwelden/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.28 19:09:27 INFO  time: Connected to build server in 6.43s
+2023.08.28 19:09:27 INFO  Connected to Build server: Bloop v1.5.8
+2023.08.28 19:09:28 INFO  time: Imported build in 0.28s
+2023.08.28 19:09:40 INFO  time: indexed workspace in 11s
+2023.08.28 19:11:25 INFO  logging to files /Users/williamwelden/cs2hw-s22-wwelden/.metals/metals.log,/Users/williamwelden/cs2examples-s22-wwelden/.metals/metals.log,/Users/williamwelden/csci2322:workspace/.metals/metals.log,/Users/williamwelden/h2-hw2-wwelden-main/.metals/metals.log,/Users/williamwelden/tipc-wwelden/.metals/metals.log,/Users/williamwelden/p1-wwelden/.metals/metals.log
+2023.08.28 19:11:25 WARN  Build server is not auto-connectable.
+2023.08.28 19:11:25 WARN  no build tool detected in workspace '/Users/williamwelden/p1-wwelden'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.30 11:48:19 INFO  logging to files /Users/williamwelden/cs2examples-s22-wwelden/.metals/metals.log,/Users/williamwelden/csci2322:workspace/.metals/metals.log,/Users/williamwelden/h2-hw2-wwelden-main/.metals/metals.log,/Users/williamwelden/tipc-wwelden/.metals/metals.log,/Users/williamwelden/p1-wwelden/.metals/metals.log
+2023.08.30 11:48:19 INFO  Shutting down server
+2023.08.30 11:48:19 INFO  shutting down Metals
+2023.08.30 11:48:19 INFO  Shut down connection with build server.
+2023.08.30 11:48:19 INFO  Shut down connection with build server.
+2023.08.30 11:48:19 INFO  Exiting server
+2023.08.30 11:48:28 INFO  Started: Metals version 1.0.0 in folders '/Users/williamwelden/cs2examples-s22-wwelden, /Users/williamwelden/csci2322:workspace, /Users/williamwelden/h2-hw2-wwelden-main, /Users/williamwelden/tipc-wwelden, /Users/williamwelden/p1-wwelden' for client Visual Studio Code 1.81.1.
+Aug 30, 2023 11:48:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 30, 2023 11:48:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 30, 2023 11:48:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/williamwelden/cs2examples-s22-wwelden/.metals/metals (H2 2.1)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.035s)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/williamwelden/csci2322:workspace/.metals/metals (H2 2.1)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.009s)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/williamwelden/h2-hw2-wwelden-main/.metals/metals (H2 2.1)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.006s)
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 11:48:29 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/williamwelden/tipc-wwelden/.metals/metals (H2 2.1)
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.005s)
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/williamwelden/p1-wwelden/.metals/metals (H2 2.1)
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.006s)
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.30 11:48:30 INFO  time: initialize in 1.86s
+Aug 30, 2023 11:48:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.08.30 11:48:51 WARN  Build server is not auto-connectable.
+2023.08.30 11:48:51 INFO  Attempting to connect to the build server...
+2023.08.30 11:48:51 WARN  Build server is not auto-connectable.
+2023.08.30 11:48:51 WARN  Build server is not auto-connectable.
+2023.08.30 11:48:51 WARN  Build server is not auto-connectable.
+2023.08.30 11:48:51 WARN  no build tool detected in workspace '/Users/williamwelden/h2-hw2-wwelden-main'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.30 11:48:51 WARN  no build tool detected in workspace '/Users/williamwelden/csci2322:workspace'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.30 11:48:51 WARN  no build tool detected in workspace '/Users/williamwelden/tipc-wwelden'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.30 11:48:51 WARN  no build tool detected in workspace '/Users/williamwelden/p1-wwelden'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.30 11:48:51 INFO  logging to files /Users/williamwelden/csci2322:workspace/.metals/metals.log,/Users/williamwelden/h2-hw2-wwelden-main/.metals/metals.log,/Users/williamwelden/tipc-wwelden/.metals/metals.log,/Users/williamwelden/p1-wwelden/.metals/metals.log
+2023.08.30 11:48:51 INFO  Shutting down server
+2023.08.30 11:48:51 INFO  shutting down Metals
+2023.08.30 11:48:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home defined at /Users/williamwelden/.bloop/bloop.json
