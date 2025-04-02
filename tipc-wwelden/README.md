@@ -1,7 +1,7 @@
 # CSCI-3334 Compiler Construction
 ## Semester project: tipc
 
-* Name(s): Welden, CoPilot
+* Name(s): Welden
 * Project Number: 0
 
 ### Overview
