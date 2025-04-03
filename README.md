@@ -4,7 +4,7 @@
 * Definitely still some work to be done
 * planning to circle back after the go compiler
 
-(Course Page)[https://sites.google.com/trinity.edu/csci3334-fl23/home?authuser=0]
+[Course Page](https://sites.google.com/trinity.edu/csci3334-fl23/home?authuser=0)
 
 ## Project Overview
 This repository contains coursework and projects from an Introduction to Compilers course taken in 2023. The codebase includes implementations of various compiler components and techniques.
