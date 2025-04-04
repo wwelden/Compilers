@@ -13,12 +13,8 @@ const int INVALID = -1;
 const int Infinity = -100; //std::numeric_limits<int>::max();
 int memAddr = 32768;
 vector<Operand> instructionList;
-<<<<<<< HEAD
-Allocator::Allocator(int k) { // might want to change some of this
-=======
 
 Allocator::Allocator(int k) {
->>>>>>> fc36361 (fix it for p2 tests)
     VRName = 0;
     if(debugLevel > 1) {
         cout << "//" << k << endl;
@@ -36,13 +32,8 @@ Allocator::Allocator(int k) {
     for (int i = numPRs-1; i > 0; i--) {
         FreePRs.push(i);
     }
-
-    // Start with empty allocated block
-    allocatedBlock.clear();
-
-    // Initialize memory address
-    memAddr = 32768;
 }
+
 int getInfinity() {
     return Infinity;
 }
@@ -116,14 +107,8 @@ int getInfinity() {
 
     void Allocator::ComputeLastUse(std::vector<Line> &Block) {
         int n = Block.size();
-<<<<<<< HEAD
-        SRtoVR.resize(n, INVALID);
-        LastUse.resize(n, Infinity);
-        biggestReg(Block);
-=======
         int maxRegNum = biggestReg(Block);
         maxRegNum += 1; // Add 1 to account for 0-indexing
->>>>>>> fc36361 (fix it for p2 tests)
 
         // Resize vectors to appropriate sizes
         SRtoVR.resize(maxRegNum, INVALID);
@@ -134,12 +119,8 @@ int getInfinity() {
             SRtoVR[i] = INVALID;
             LastUse[i] = Infinity;
         }
-<<<<<<< HEAD
-        // dest = OP3? Ya
-=======
 
         // Process block from bottom to top
->>>>>>> fc36361 (fix it for p2 tests)
         for (int i = n-1; i >= 0; i--) {
             if (Block[i].dest.isReg && Block[i].dest.SR >= 0 && Block[i].dest.SR < maxRegNum) {
                 Update(Block[i].dest, i);
@@ -184,18 +165,10 @@ int getInfinity() {
 
         // Get memory address where VR was spilled
         int newMemAddr = VRtoMemAd[vr];
-
-        // Generate restore instructions
-        allocatedBlock.push_back(Line{LOADI, makeOpperand(false, -1, newMemAddr), makeOpperand(false, -1, -1), makeOpperand(true, -1, -1, -1, 0), -1});
-
-        // Make sure VR has valid PR before generating the load instruction
-        if (vr >= 0 && vr < VRtoPR.size() && VRtoPR[vr] >= 0) {
-            allocatedBlock.push_back(Line{LOAD, makeOpperand(true, -1, -1, -1, 0), makeOpperand(false, -1, -1), makeOpperand(true, -1, -1, -1, VRtoPR[vr]), -1});
-        } else {
-            // If PR is invalid, use PR 1 as fallback
-            allocatedBlock.push_back(Line{LOAD, makeOpperand(true, -1, -1, -1, 0), makeOpperand(false, -1, -1), makeOpperand(true, -1, -1, -1, 1), -1});
-        }
+        allocatedBlock.push_back(Line{LOADI, makeOpperand(false, -1, newMemAddr), makeOpperand(false, -1, -1), makeOpperand(true, -1, -1, -1, 0), -1});// loadI memadd into r2?
+        allocatedBlock.push_back(Line{LOAD, makeOpperand(true, -1, -1, -1, 0), makeOpperand(false, -1, -1), makeOpperand(true, -1, -1, -1, VRtoPR[vr]), -1});// load r2 into pr0
     }
+
     // This is a stub; actual spilling logic would depend on architecture and context.
     // int Allocator::spill(const Operand& inst) {
     int Allocator::spill() {
@@ -352,29 +325,15 @@ int getInfinity() {
         // Process each instruction
         for (Line &inst : Block)
         {
-<<<<<<< HEAD
-          printTables();
-          //inst.tablePrint();
-            // no guarantee there is two ops (ex. loadI, I think)
-            // if statement (or maybe cases) to check how many ops there are?
-
-          // make this a funciton ensurePR(Operand &op)
-=======
             printTables();
 
             // Handle operands 1 and 2
->>>>>>> fc36361 (fix it for p2 tests)
             ensurePR(inst.op1);
             ensurePR(inst.op2);
             handleNU(inst.op1);
             handleNU(inst.op2);
-<<<<<<< HEAD
-            // this commented line was with itself but flipped - should be fixed (I think) as of 11/28
-            // VRtoPR[inst.dest.VR] = inst.dest.PR;
-=======
 
             // Handle destination operand
->>>>>>> fc36361 (fix it for p2 tests)
             if(inst.dest.isReg) {
                 // Safety check for valid VR
                 if (inst.dest.VR < 0 || inst.dest.VR >= VRtoPR.size()) {
